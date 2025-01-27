@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('../URL_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+#input-url {
+    height: 25px;
+    width: 570px;
+    border-radius: 7px;
+    text-align: center;
+    background-color:rgb(55, 121, 245);
+    border-color: blue;
+    color: white;
+}
+#button {
+    height: 30px;
+    width: 100px;
+    background-color: darkcyan;
+    border-radius: 7px;
+    border-color: blue;
+    cursor: pointer;
+    color: white;
+}
+#button:hover{
+    background-color: rgb(92, 92, 236);
+}
+.url-search {
+    margin: 80px;
+    margin-left: 400px;
+}
+#msg{
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: auto;
+    margin-left: 35%;
+}
+.hide{
+    display: none;
+}
